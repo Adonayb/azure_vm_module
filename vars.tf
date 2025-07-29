@@ -4,7 +4,7 @@ variable "resource_group_name" {
 
 }
 variable "subscription_id" {
-  type    = string
+  type = string
 }
 variable "location" {
   type    = string
@@ -14,7 +14,7 @@ variable "location" {
 variable "vm_name" {
   type    = string
   default = "demo-vm"
-  
+
 }
 
 variable "virtual_network_name" {
@@ -30,5 +30,5 @@ variable "subnet_name" {
 variable "nic-name" {
   type    = string
   default = "demo-nic"
-  
+
 }
